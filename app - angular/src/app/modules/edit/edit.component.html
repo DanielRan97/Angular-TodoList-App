@@ -1,0 +1,15 @@
+<nb-card>
+    <nb-card-header>Edit Mission</nb-card-header>
+    <nb-card-body>
+        <form #f="ngForm" [formGroup]="editMission">
+
+            <input type="text" nbInput placeholder="Name*" formControlName="name" style="margin-bottom: 5px;">
+           
+  
+            <textarea nbInput fullWidth placeholder="Description*" formControlName="description"></textarea>
+           
+            <button nbButton status="success" [disabled]="!f.valid" (click)="edit(f)">Edit Mission</button>
+          </form>
+    </nb-card-body>
+    
+  </nb-card>

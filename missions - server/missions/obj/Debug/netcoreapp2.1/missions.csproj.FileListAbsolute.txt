@@ -1,0 +1,14 @@
+C:\Users\danie\source\repos\missions\missions\bin\Debug\netcoreapp2.1\missions.deps.json
+C:\Users\danie\source\repos\missions\missions\bin\Debug\netcoreapp2.1\missions.runtimeconfig.json
+C:\Users\danie\source\repos\missions\missions\bin\Debug\netcoreapp2.1\missions.runtimeconfig.dev.json
+C:\Users\danie\source\repos\missions\missions\bin\Debug\netcoreapp2.1\missions.dll
+C:\Users\danie\source\repos\missions\missions\bin\Debug\netcoreapp2.1\missions.pdb
+C:\Users\danie\source\repos\missions\missions\obj\Debug\netcoreapp2.1\missions.csprojAssemblyReference.cache
+C:\Users\danie\source\repos\missions\missions\obj\Debug\netcoreapp2.1\missions.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\missions\missions\obj\Debug\netcoreapp2.1\missions.RazorAssemblyInfo.cache
+C:\Users\danie\source\repos\missions\missions\obj\Debug\netcoreapp2.1\missions.RazorAssemblyInfo.cs
+C:\Users\danie\source\repos\missions\missions\obj\Debug\netcoreapp2.1\missions.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\missions\missions\obj\Debug\netcoreapp2.1\missions.AssemblyInfo.cs
+C:\Users\danie\source\repos\missions\missions\obj\Debug\netcoreapp2.1\missions.RazorTargetAssemblyInfo.cache
+C:\Users\danie\source\repos\missions\missions\obj\Debug\netcoreapp2.1\missions.dll
+C:\Users\danie\source\repos\missions\missions\obj\Debug\netcoreapp2.1\missions.pdb

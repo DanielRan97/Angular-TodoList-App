@@ -1,0 +1,50 @@
+<nb-layout>
+    <nb-layout-header><h1>Mission Manager</h1></nb-layout-header>
+    <nb-layout-column id="left" class="colored-column-warning">
+      <div>
+        <h2>Add Mission</h2>
+
+        <form #f="ngForm" [formGroup]="addMission">
+
+          <input type="text" nbInput placeholder="Name*" formControlName="name" style="margin-bottom: 5px;">
+          <p class="errorText" *ngIf="!addMission.controls.name.valid && addMission.controls.name.touched">
+            Name is required
+            </p>
+
+          <textarea nbInput fullWidth placeholder="Description*" formControlName="description"></textarea>
+          <p class="errorText" *ngIf="!addMission.controls.description.valid && addMission.controls.description.touched">
+            Description is required
+            </p>
+          <button nbButton status="success" [disabled]="!f.valid" (click)="add(f)">Add Mission</button>
+        </form>
+
+
+
+      </div>
+
+
+
+
+
+    </nb-layout-column>
+    <nb-layout-column class="colored-column-danger">
+      <h2>My Missions</h2>
+      <div *ngFor="let m of missions">
+        <nb-card>
+          <nb-card-header><p style="display: inline-block;">ID:{{m.id}}</p><h4 style="margin-left: 30px;display: inline-block;">{{m.name}}</h4></nb-card-header>
+          <nb-card-body>
+            <h6>Description:</h6>
+           {{m.description}}
+          </nb-card-body>
+          <nb-card-footer>{{m.date}}</nb-card-footer>
+          <nb-card-footer> 
+            <button nbButton status="danger" (click)="delete(m.id)">Delete</button>
+            <button nbButton status="primary" (click)="editMission(m)">Edit</button>
+          </nb-card-footer>
+        </nb-card>
+
+      </div>
+
+
+    </nb-layout-column>
+  </nb-layout>
